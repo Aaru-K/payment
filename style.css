@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(238, 236, 236);
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(42, 194, 100);
+}
+img{
+    height: 250px;
+}
+h1{
+    text-align: center;
+}
+.Form,
+#header-logo{
+    text-align: center;
+    font-size: 18px;
+    border: 0px;
+}
+div{
+    border: 5px solid black;
+    border-collapse: collapse;
+}
+#name,
+#phone,
+#address,
+.dropdown{
+    margin-left: 450px;
+    margin-right: 450px;
+}
+textarea{
+    width: 250px;
+    height: 60px;
+}
+input{
+    height: 20px;
+}
+select{
+    width: 100px;
+    height: 25px;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    height: 30px;
+    width: 100px;
+    font-size: 20px;
+    border-radius: 30px;
+    box-shadow: 6px 6px 6px #ccc7c7, -6px -6px 6px beige ;
+    background-color: rgb(248, 178, 178);
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
