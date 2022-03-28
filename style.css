@@ -62,6 +62,8 @@ button{
 }
 button:hover{
     font-weight: bold;
+    background-color: rgb(0, 0, 0);
+    color: rgb(248, 178, 178);
 }
 footer{
     background-color: black;
