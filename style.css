@@ -60,6 +60,9 @@ button{
     box-shadow: 6px 6px 6px #ccc7c7, -6px -6px 6px beige ;
     background-color: rgb(248, 178, 178);
 }
+button:hover{
+    font-weight: bold;
+}
 footer{
     background-color: black;
     color: white;
